@@ -1,0 +1,25 @@
+* {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1em;
+    /* background-color: #231557; */
+    padding: 0;
+    margin: 0;
+  }
+
+
+  
+.flex-item {
+ background-color: rgb(85, 81, 81);
+ width: 6px;
+ /* display: inline-flex; */
+ margin: 3px;
+ /* border-radius: 30px; */
+}
+
+ .maindiv_nav {
+    height: 42.25vw;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  } 

@@ -1,0 +1,120 @@
+/* TOP */
+.title{ 
+    height: 4vw;
+    width: 100%;
+    background-color: aqua;
+    font-size: 2.5vw;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.5vw;
+}  
+/* LEFT */
+.buttBars{
+    display: flex;
+    height: 100%;
+}
+.rangesliders{
+    height: 100%;
+    width: 15vw;
+    /* width: 15%; */
+    background-color: plum;
+}
+/* ARRAY MIDDLE */
+#yoyoarrays{
+    background-color: greenyellow;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* width: 60%; */
+    width: 60vw;
+    
+}
+  .array-bar {
+   background-color: blueviolet;
+ } 
+
+  /* RIGHT */
+ #card{
+     height: 100%;
+     width: 25vw;
+     /* width: 25%; */
+     background-color: lightcoral;
+ }
+ 
+
+ /* FOOT */
+
+ .app-footer {
+   height:4vw;
+   display: flex;
+   background-color: #333;
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ 
+ .app-button {
+   box-sizing: border-box;
+   padding: 0.3vw;
+   border-radius: 1vw;
+   margin-left: 1vw;
+   margin-right: 1vw;
+   color: black;
+   font-size: 1.5vw;
+   background-color: yellowgreen;
+   transition: all 0.5s ease;
+ }
+ .app-button:hover {
+   margin-left: 1.5vw;
+   margin-right: 1.5vw;
+ }
+ 
+ .app-button:hover {
+   color: rgb(83, 83, 83);
+   background-color: #cab3b3;
+ }
+
+ /* SLIDERS */
+ .slider {
+  transform: rotate(-90deg);
+  width:20vw;
+  height:5vw;
+  padding: 20px;
+  background: #f5f5f5;
+  border: 3px solid #00acee;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+  .slider input[type="range"] {
+      z-index: 1;
+      -webkit-appearance: none !important;
+      border: none;
+      width: 200px;
+      height: 3px;
+      background: #00acee;
+  }
+
+  .slider input[type="range"]::-webkit-slider thumb {
+      z-index: 1;
+      -webkit-appearance: none !important;
+      width: 5vw;
+      height: 5vw;
+      background: #f5f5f5;
+      border: 2px solid #00acee;
+      border-radius: 50%;
+      cursor: pointer;
+  }
+  #speed, #size{
+      position: absolute;
+      z-index: 0;
+      font-size: 5vw;
+      font-weight: 800;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      color: rgb(158, 157, 157);
+  }
